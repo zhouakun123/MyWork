@@ -1,0 +1,7 @@
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\bin\Debug\RelevancyAnalysis.exe.config
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\bin\Debug\RelevancyAnalysis.exe
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\bin\Debug\RelevancyAnalysis.pdb
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\obj\Debug\RelevancyAnalysis.csprojResolveAssemblyReference.cache
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\obj\Debug\RelevancyAnalysis.csproj.ResolveComReference.cache
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\obj\Debug\RelevancyAnalysis.exe
+C:\HX\Data Mining\ExcelHandle\RelevancyAnalysis\obj\Debug\RelevancyAnalysis.pdb

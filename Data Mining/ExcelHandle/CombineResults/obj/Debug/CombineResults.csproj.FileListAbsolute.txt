@@ -1,0 +1,14 @@
+C:\HX\Data Mining\CombineResults\CombineResults\bin\Debug\CombineResults.exe.config
+C:\HX\Data Mining\CombineResults\CombineResults\bin\Debug\CombineResults.exe
+C:\HX\Data Mining\CombineResults\CombineResults\bin\Debug\CombineResults.pdb
+C:\HX\Data Mining\CombineResults\CombineResults\obj\Debug\CombineResults.csproj.ResolveComReference.cache
+C:\HX\Data Mining\CombineResults\CombineResults\obj\Debug\CombineResults.exe
+C:\HX\Data Mining\CombineResults\CombineResults\obj\Debug\CombineResults.pdb
+C:\HX\Data Mining\CombineResults\CombineResults\obj\Debug\CombineResults.csprojResolveAssemblyReference.cache
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Debug\CombineResults.exe.config
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Debug\CombineResults.csproj.ResolveComReference.cache
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Debug\CombineResults.exe
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Debug\CombineResults.pdb
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Debug\CombineResults.exe
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Debug\CombineResults.pdb
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Debug\CombineResults.csprojResolveAssemblyReference.cache

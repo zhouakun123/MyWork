@@ -1,0 +1,10 @@
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Release\CombineResults.exe.config
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Release\CombineResults.csproj.ResolveComReference.cache
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Release\CombineResults.exe
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Release\CombineResults.pdb
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Release\CombineResults.exe
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Release\CombineResults.pdb
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Release\CombineResults.exe.manifest
+C:\HX\Data Mining\ExcelHandle\CombineResults\bin\Release\CombineResults.application
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Release\CombineResults.exe.manifest
+C:\HX\Data Mining\ExcelHandle\CombineResults\obj\Release\CombineResults.application
