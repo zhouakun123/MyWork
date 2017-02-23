@@ -1,0 +1,8 @@
+C:\HX\WCF\EvalServiceLibrary\Client\bin\Debug\Client.exe.config
+C:\HX\WCF\EvalServiceLibrary\Client\bin\Debug\Client.exe
+C:\HX\WCF\EvalServiceLibrary\Client\bin\Debug\Client.pdb
+C:\HX\WCF\EvalServiceLibrary\Client\obj\Debug\Client.exe
+C:\HX\WCF\EvalServiceLibrary\Client\obj\Debug\Client.pdb
+C:\HX\WCF\EvalServiceLibrary\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\HX\WCF\EvalServiceLibrary\Client\bin\Debug\EvalServiceLibrary.dll
+C:\HX\WCF\EvalServiceLibrary\Client\bin\Debug\EvalServiceLibrary.pdb
