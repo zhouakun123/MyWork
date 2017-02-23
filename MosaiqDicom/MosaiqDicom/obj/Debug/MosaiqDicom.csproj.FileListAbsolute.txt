@@ -1,0 +1,5 @@
+c:\ElektaWork\MosaiqDicom\MosaiqDicom\bin\Debug\MosaiqDicom.dll
+c:\ElektaWork\MosaiqDicom\MosaiqDicom\bin\Debug\MosaiqDicom.pdb
+c:\ElektaWork\MosaiqDicom\MosaiqDicom\obj\Debug\MosaiqDicom.csprojResolveAssemblyReference.cache
+c:\ElektaWork\MosaiqDicom\MosaiqDicom\obj\Debug\MosaiqDicom.dll
+c:\ElektaWork\MosaiqDicom\MosaiqDicom\obj\Debug\MosaiqDicom.pdb

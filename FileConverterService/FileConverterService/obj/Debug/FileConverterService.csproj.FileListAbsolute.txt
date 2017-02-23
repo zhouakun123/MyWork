@@ -1,0 +1,12 @@
+c:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\FileConverterService.exe.config
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\FileConverterService.exe
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\FileConverterService.pdb
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\Topshelf.dll
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\Topshelf.xml
+C:\ElektaWork\FileConverterService\FileConverterService\obj\Debug\FileConverterService.csprojResolveAssemblyReference.cache
+C:\ElektaWork\FileConverterService\FileConverterService\obj\Debug\FileConverterService.exe
+C:\ElektaWork\FileConverterService\FileConverterService\obj\Debug\FileConverterService.pdb
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\NLog.dll
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\Topshelf.NLog.dll
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\NLog.xml
+C:\ElektaWork\FileConverterService\FileConverterService\bin\Debug\Topshelf.NLog.xml
