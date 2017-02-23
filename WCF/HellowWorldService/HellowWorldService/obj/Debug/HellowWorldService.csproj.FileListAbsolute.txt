@@ -1,0 +1,6 @@
+C:\HX\WCF\HellowWorldService\HellowWorldService\bin\Debug\HellowWorldService.dll.config
+C:\HX\WCF\HellowWorldService\HellowWorldService\bin\Debug\HellowWorldService.dll
+C:\HX\WCF\HellowWorldService\HellowWorldService\bin\Debug\HellowWorldService.pdb
+C:\HX\WCF\HellowWorldService\HellowWorldService\obj\Debug\HellowWorldService.csprojResolveAssemblyReference.cache
+C:\HX\WCF\HellowWorldService\HellowWorldService\obj\Debug\HellowWorldService.dll
+C:\HX\WCF\HellowWorldService\HellowWorldService\obj\Debug\HellowWorldService.pdb
