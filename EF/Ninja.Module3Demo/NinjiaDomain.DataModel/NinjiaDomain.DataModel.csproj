@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectedRepository.cs" />
+    <Compile Include="DisconnectedRepository.cs" />
     <Compile Include="Migrations\201703170713284_Initial.cs" />
     <Compile Include="Migrations\201703170713284_Initial.Designer.cs">
       <DependentUpon>201703170713284_Initial.cs</DependentUpon>

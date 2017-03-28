@@ -1,11 +1,6 @@
 ﻿using NinjaDomain.Classes;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NinjiaDomain.DataModel;
-using NinjaDomain.Classes.Enums;
 using System.Data.Entity;
 using System.Collections;
 using System.Collections.ObjectModel;
@@ -33,7 +28,7 @@ namespace NinjiaDomain.DataModel
 
         public IEnumerable GetClanList()
         {
-            return _context.Clans.OrderBy(c=>c.ClanName).Select(c=>new { c.Id, c.ClanName}).ToList();
+            return _context.Clans.OrderBy(c=>c.ClanName).Select(c=>new { c.Id, c.ClanName }).ToList();
         }
 
         public ObservableCollection<Ninja> NinjasInMemory()
