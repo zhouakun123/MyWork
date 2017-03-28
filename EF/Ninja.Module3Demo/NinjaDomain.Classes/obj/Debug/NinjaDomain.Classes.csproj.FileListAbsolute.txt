@@ -1,0 +1,9 @@
+C:\HX\EF\Ninja.Module2Demo\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.dll
+C:\HX\EF\Ninja.Module2Demo\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.pdb
+C:\HX\EF\Ninja.Module2Demo\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.csprojResolveAssemblyReference.cache
+C:\HX\EF\Ninja.Module2Demo\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.dll
+C:\HX\EF\Ninja.Module2Demo\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.pdb
+C:\HX\EF\Ninja.Module3Demo\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.dll
+C:\HX\EF\Ninja.Module3Demo\NinjaDomain.Classes\bin\Debug\NinjaDomain.Classes.pdb
+C:\HX\EF\Ninja.Module3Demo\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.dll
+C:\HX\EF\Ninja.Module3Demo\NinjaDomain.Classes\obj\Debug\NinjaDomain.Classes.pdb

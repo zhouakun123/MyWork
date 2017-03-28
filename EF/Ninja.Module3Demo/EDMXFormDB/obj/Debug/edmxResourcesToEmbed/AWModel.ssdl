@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NinjiaDomain.DataModel.NinjaContextModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClanName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="NinjaEquipments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Ninja_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ninjas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="ServedInOniwaban" Type="bit" Nullable="false" />
+    <Property Name="ClanId" Type="int" Nullable="false" />
+    <Property Name="DateOfBirth" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id">
+    <End Role="Ninjas" Type="Self.Ninjas" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NinjaEquipments" Type="Self.NinjaEquipments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ninjas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NinjaEquipments">
+        <PropertyRef Name="Ninja_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Ninjas_dbo_Clans_ClanId">
+    <End Role="Clans" Type="Self.Clans" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Ninjas" Type="Self.Ninjas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clans">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ninjas">
+        <PropertyRef Name="ClanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NinjiaDomainDataModelNinjaContextModelStoreContainer">
+    <EntitySet Name="Clans" EntityType="Self.Clans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NinjaEquipments" EntityType="Self.NinjaEquipments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ninjas" EntityType="Self.Ninjas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id" Association="Self.FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id">
+      <End Role="Ninjas" EntitySet="Ninjas" />
+      <End Role="NinjaEquipments" EntitySet="NinjaEquipments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Ninjas_dbo_Clans_ClanId" Association="Self.FK_dbo_Ninjas_dbo_Clans_ClanId">
+      <End Role="Clans" EntitySet="Clans" />
+      <End Role="Ninjas" EntitySet="Ninjas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

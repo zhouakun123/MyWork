@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NinjiaDomain.DataModel.NinjaContextModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClanName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ninjas" Relationship="Self.FK_dbo_Ninjas_dbo_Clans_ClanId" FromRole="Clans" ToRole="Ninjas" />
+  </EntityType>
+  <EntityType Name="NinjaEquipment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="Ninja_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ninja" Relationship="Self.FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id" FromRole="NinjaEquipments" ToRole="Ninjas" />
+  </EntityType>
+  <EntityType Name="Ninja">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServedInOniwaban" Type="Boolean" Nullable="false" />
+    <Property Name="ClanId" Type="Int32" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Clan" Relationship="Self.FK_dbo_Ninjas_dbo_Clans_ClanId" FromRole="Ninjas" ToRole="Clans" />
+    <NavigationProperty Name="NinjaEquipments" Relationship="Self.FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id" FromRole="Ninjas" ToRole="NinjaEquipments" />
+  </EntityType>
+  <Association Name="FK_dbo_Ninjas_dbo_Clans_ClanId">
+    <End Role="Clans" Type="Self.Clan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Ninjas" Type="Self.Ninja" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clans">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ninjas">
+        <PropertyRef Name="ClanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id">
+    <End Role="Ninjas" Type="Self.Ninja" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NinjaEquipments" Type="Self.NinjaEquipment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ninjas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NinjaEquipments">
+        <PropertyRef Name="Ninja_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clans" EntityType="Self.Clan" />
+    <EntitySet Name="NinjaEquipments" EntityType="Self.NinjaEquipment" />
+    <EntitySet Name="Ninjas" EntityType="Self.Ninja" />
+    <AssociationSet Name="FK_dbo_Ninjas_dbo_Clans_ClanId" Association="Self.FK_dbo_Ninjas_dbo_Clans_ClanId">
+      <End Role="Clans" EntitySet="Clans" />
+      <End Role="Ninjas" EntitySet="Ninjas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id" Association="Self.FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id">
+      <End Role="Ninjas" EntitySet="Ninjas" />
+      <End Role="NinjaEquipments" EntitySet="NinjaEquipments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

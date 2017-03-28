@@ -1,0 +1,9 @@
+﻿install-package entityframework
+enable-migrations
+add-migration 'MigrationName'
+update-database -verbose
+update-database -script
+
+Right Click on NinjaContext.cs, and use EF tool to show the Data Model diagram.
+
+http://blog.csdn.net/dj2008/article/details/23756895
