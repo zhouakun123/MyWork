@@ -1,0 +1,26 @@
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\bin\Debug\HX_IGerm.exe.config
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\bin\Debug\HX_IGerm.exe
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\bin\Debug\HX_IGerm.pdb
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.csprojResolveAssemblyReference.cache
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\MainWindow.baml
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\MainWindow.g.cs
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\App.g.cs
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm_MarkupCompile.cache
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.g.resources
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.Properties.Resources.resources
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.csproj.GenerateResource.Cache
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.exe
+C:\Users\cnzhohao\Documents\Visual Studio 2013\Projects\DXApplication1\HX_IGerm\obj\Debug\HX_IGerm.pdb
+C:\HX\HX_IGerm\bin\Debug\HX_IGerm.exe.config
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.exe
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.pdb
+C:\HX\HX_IGerm\bin\Debug\HX_IGerm.exe
+C:\HX\HX_IGerm\bin\Debug\HX_IGerm.pdb
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.csprojResolveAssemblyReference.cache
+C:\HX\HX_IGerm\obj\Debug\MainWindow.baml
+C:\HX\HX_IGerm\obj\Debug\MainWindow.g.cs
+C:\HX\HX_IGerm\obj\Debug\App.g.cs
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm_MarkupCompile.cache
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.g.resources
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.Properties.Resources.resources
+C:\HX\HX_IGerm\obj\Debug\HX_IGerm.csproj.GenerateResource.Cache

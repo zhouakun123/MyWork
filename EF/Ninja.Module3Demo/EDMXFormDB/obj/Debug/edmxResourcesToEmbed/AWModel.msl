@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NinjiaDomainDataModelNinjaContextModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Clans">
+      <EntityTypeMapping TypeName="NinjiaDomain.DataModel.NinjaContextModel.Clan">
+        <MappingFragment StoreEntitySet="Clans">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClanName" ColumnName="ClanName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NinjaEquipments">
+      <EntityTypeMapping TypeName="NinjiaDomain.DataModel.NinjaContextModel.NinjaEquipment">
+        <MappingFragment StoreEntitySet="NinjaEquipments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Ninja_Id" ColumnName="Ninja_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ninjas">
+      <EntityTypeMapping TypeName="NinjiaDomain.DataModel.NinjaContextModel.Ninja">
+        <MappingFragment StoreEntitySet="Ninjas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ServedInOniwaban" ColumnName="ServedInOniwaban" />
+          <ScalarProperty Name="ClanId" ColumnName="ClanId" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

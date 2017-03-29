@@ -1,0 +1,14 @@
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\EntityFramework.dll
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\NinjaDomain.Classes.dll
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\NinjiaDomain.DataModel.dll
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\NinjaDomain.Classes.pdb
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\NinjiaDomain.DataModel.pdb
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\EntityFramework.xml
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\HX\EF\Ninja.Module3Demo\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

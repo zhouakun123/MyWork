@@ -1,0 +1,10 @@
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EDMXFormDB.dll.config
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EDMXFormDB.dll
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EDMXFormDB.pdb
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EntityFramework.dll
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EntityFramework.xml
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\obj\Debug\EDMXFormDB.dll
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\obj\Debug\EDMXFormDB.pdb
+C:\HX\EF\Ninja.Module3Demo\EDMXFormDB\obj\Debug\EDMXFormDB.csprojResolveAssemblyReference.cache
